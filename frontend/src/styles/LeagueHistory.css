@@ -1,0 +1,51 @@
+.league-list-wrapper {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+
+.league-list-item {
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: monospace;
+    font-size: small;
+}
+
+.win {
+    background-color: green;
+    font-weight: lighter;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.loss {
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: firebrick;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.loading-matches {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: monospace;
+  font-weight: lighter;
+}
+
+.pos-kda {
+    color: green;
+    font-weight: bolder;
+}
+
+.neg-kda {
+    color: red;
+    font-weight: bolder;
+}

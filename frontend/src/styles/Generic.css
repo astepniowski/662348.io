@@ -1,0 +1,18 @@
+/*
+Contains generic css styling for recyled elements
+
+eg.
+home redirect is reused across several pages
+*/
+
+.redirect-home {
+    font-size: large;
+    font-family: monospace;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+}
+
+.highlight {
+    background-color: yellow;
+}

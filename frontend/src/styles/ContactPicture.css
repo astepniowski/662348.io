@@ -1,0 +1,20 @@
+.contact-picture-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+
+}
+
+.contact-picture {
+    width: 100px;
+    height: auto;
+}
+
+.hover-contact-text {
+    font-family: monospace;
+    color: black;
+}
+
