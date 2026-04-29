@@ -13,10 +13,14 @@ from services.email import send_contact_email
 app = FastAPI()
 
 
-# allow frontend to talk to backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Vite default
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "http://frontend-662348.s3-website.us-east-2.amazonaws.com"
+    ],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
