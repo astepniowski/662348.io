@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import LeagueMatchList from "../components/LeagueMatchHistory/LeagueMatchList"
 import { Link } from "react-router-dom";
+import { API_URL } from "../config";
 
 import '../styles/LeagueHistory.css'
 
@@ -12,7 +13,7 @@ function LeagueHistory() {
         const fetchMatches = async () => {
             try {
                 const res = await fetch(
-                    "http://localhost:8000/api/riot/matches/evoms/iwnl"
+                    `${API_URL}/api/riot/matches/evoms/iwnl`
                 );
 
                 const data = await res.json();

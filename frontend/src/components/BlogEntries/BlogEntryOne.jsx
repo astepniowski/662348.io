@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import star from '../../assets/star.gif'
+import star from '/star.gif'
 
 function BlogEntryOne() {
     return (

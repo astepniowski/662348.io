@@ -1,6 +1,7 @@
 import { useState } from "react";
 import '../styles/ContactForm.css'
 import { Link } from "react-router-dom";
+import { API_URL } from "../config";
 
 function Contact() {
     const [form, setForm] = useState({
@@ -22,13 +23,13 @@ function Contact() {
         setStatus("sending");
 
         try {
-            const res = await fetch("http://3.143.251.17:8000/api/contact", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(form)
-            });
+            const res = await fetch(`${API_URL}/api/contact`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(form)
+        });
 
             if (res.ok) {
                 setStatus("sent");

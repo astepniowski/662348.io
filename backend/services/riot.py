@@ -1,7 +1,9 @@
 import requests
 from datetime import datetime
+import dotenv
+import os
 
-RIOT_API_KEY = "RGAPI-220aab88-2507-450e-acf5-e8f56278df1c"
+RIOT_API_KEY = "RGAPI-a186986c-bc60-4dea-a222-285a2c5bcbca"
 
 HEADERS = {
     "X-Riot-Token": RIOT_API_KEY
