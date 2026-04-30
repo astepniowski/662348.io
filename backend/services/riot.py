@@ -3,7 +3,7 @@ from datetime import datetime
 import dotenv
 import os
 
-RIOT_API_KEY = "RGAPI-a186986c-bc60-4dea-a222-285a2c5bcbca"
+RIOT_API_KEY = os.getenv("RIOT_API_KEY")
 
 HEADERS = {
     "X-Riot-Token": RIOT_API_KEY

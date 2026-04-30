@@ -18,7 +18,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://localhost:3000",
-        "http://frontend-662348.s3-website.us-east-2.amazonaws.com"
+        "https://662348.org"
     ],
     allow_credentials=True,
     allow_methods=["*"],
