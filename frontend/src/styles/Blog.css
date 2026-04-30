@@ -5,8 +5,10 @@
 }
 
 .star-spin {
-    width: 150px;
+    width: 200px;
     height: 150px
 }
 
-
+.blog-entry-item {
+   margin-top: 8vh;
+}

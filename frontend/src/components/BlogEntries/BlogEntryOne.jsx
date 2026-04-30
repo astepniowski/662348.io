@@ -3,8 +3,8 @@ import star from '/star.gif'
 
 function BlogEntryOne() {
     return (
-        <div className = ".blog-entry-list-container">
-            <h3>4/29/26 10:32am</h3>
+        <div className="blog-entry-item">
+            <h2>4/29/26 10:32am</h2>
 
             <br/>
             

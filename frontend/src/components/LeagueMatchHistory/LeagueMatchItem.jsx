@@ -9,7 +9,7 @@ function LeagueMatchItem({ match }) {
             <p><u>Timestamp: {match["game-time-end"]}</u></p>
             <h3>{match.champion}</h3>
             <img
-            src={`https://ddragon.leagueoflegends.com/cdn/14.1.1/img/champion/${match.champion}.png`}
+            src={`https://ddragon.leagueoflegends.com/cdn/16.9.1/img/champion/${match.champion}.png`}
             alt="no icon"
             />
             <p>Game Type: {match["game-type"]}</p>

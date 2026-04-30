@@ -1,6 +1,8 @@
-import BlogEntryOne from "../components/BlogEntries/BlogEntryOne";
 import { Link } from "react-router-dom";
 import "../styles/Blog.css";
+
+import BlogEntryTwo from "../components/BlogEntries/BlogEntryTwo";
+import BlogEntryOne from "../components/BlogEntries/BlogEntryOne";
 
 function Blog() {
   return (
@@ -10,7 +12,8 @@ function Blog() {
       </Link>
 
       <div className="blog-entry-list-container">
-        <BlogEntryOne />
+        <BlogEntryTwo  />
+        <BlogEntryOne  />
       </div>
     </div>
   );
